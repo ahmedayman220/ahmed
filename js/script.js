@@ -45,6 +45,7 @@ $(document).ready(function () {
           items : 4,
           lazyLoad : true,
           navigation : true
+        
         }); 
        
       });

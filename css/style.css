@@ -9,13 +9,15 @@
 body {
     height: 10000px;
     font-family: 'Montserrat', sans-serif;
-    
+
 }
 
 * {
     margin: 0;
     padding: 0;
 }
+
+
 
 section:not(.contact-us-navigation, .backgronud_image) {
     margin: 100px 0;
@@ -102,6 +104,7 @@ a:hover {
     color: #fff;
     border: 1px solid #ffffff;
 }
+
 /* responsev */
 .sidenav {
     height: 100%;
@@ -114,45 +117,52 @@ a:hover {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
-  
-  .sidenav a {
+}
+
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
+}
+
+.sidenav a:hover {
     color: #f1f1f1;
-  }
-  
-  .sidenav .closebtn {
+}
+
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
-  
-  #main {
+}
+
+#main {
     transition: margin-left .5s;
     padding: 16px;
-  }
-  
-  .toggle-width {
-      width: 250px;
-  }
-  .toggle-margin {
+}
+
+.toggle-width {
+    width: 250px;
+}
+
+.toggle-margin {
     margin-Left: 250px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
 /* aside  */
 
 .aside-section {
@@ -459,6 +469,7 @@ a:hover {
     opacity: .5;
     cursor: pointer;
     transition: .5s;
+    width: 10%;
 }
 
 .all-image-company img:hover {
@@ -482,15 +493,22 @@ section.icon-counter {
     margin: 50px 0;
 }
 
-section.icon-counter i,
-section.icon-counter img {
-    width: 10%;
+.item-counter {
+    font-size: 25px;
+    width: 20%;
 }
 
+/* .item-counter i {
+    max-width: 60%;
+} */
 .item-counter span {
     font-size: 23px;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.664);
+}
+
+.pow img {
+    width: 30px;
 }
 
 /* ======================================== */
@@ -599,60 +617,71 @@ section.icon-counter img {
 
 /*================================================= */
 /* Start section 9- Theme Customize || Post Types and Elements ||Premium Widgets and shortcodes  
-/* ================================================*/ 
+/* ================================================*/
 .tpp {
     padding-top: 10px;
     padding-bottom: 75px;
 }
+
 .item-1-tpp {
     padding: 80px 0 0;
 }
+
 .item-1-description-tpp {
     margin-top: 50px;
 }
+
 .item-1-description-tpp h2 {
     color: #000;
     font-size: 35px;
     font-weight: 600;
     padding: 0 0 20px;
 }
+
 .item-1-description-tpp p {
     font-size: 18px;
     padding: 20px 0;
     font-weight: 600;
     color: #6c6c6c;
 }
+
 .icon-true-1-tpp div {
     font-size: 18px;
 }
+
 .icon-true-1-tpp div i {
     font-size: 20px;
-    padding: 0 15px 0 0;
+    padding: 0 5px 0 0;
     color: #ffb606;
 }
-.icon-true-1-tpp div span  {
+
+.icon-true-1-tpp div span {
     color: #6c6c6c;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: bold;
 }
+
 .icon-true-1-tpp {
-    margin-right: 50px;
+    margin-right: 5px;
 }
 
 /*  */
 .icon-true-2-tpp div {
     font-size: 18px;
 }
+
 .icon-true-2-tpp div i {
     font-size: 20px;
-    padding: 0 15px 0 0;
+    padding: 0 5px 0 0;
     color: #ffb606;
 }
-.icon-true-2-tpp div span  {
+
+.icon-true-2-tpp div span {
     color: #6c6c6c;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
 }
+
 /* =============================================== */
 /*  section 10- Perfect On Any Device
 /* =============================================== */
@@ -662,17 +691,20 @@ section.icon-counter img {
     background: #ffb606;
     text-align: center;
 }
+
 .perfect .headre-perfect h2 {
     padding: 0 0 10px;
     color: #000;
     font-weight: 500;
     font-size: 55px;
 }
+
 .perfect .headre-perfect p {
     color: #000;
     padding: 0 0 20px;
     font-size: 17px
 }
+
 /* =============================================== */
 /*  section 11- One-Click Demo Installer
 /* =============================================== */
@@ -680,13 +712,16 @@ section.icon-counter img {
     padding: 80px 0 90px;
     text-align: center;
 }
+
 .online-company {
     padding: 50px 0;
 }
-.header-one-click h2{
+
+.header-one-click h2 {
     font-size: 55px;
     font-weight: 500;
 }
+
 .header-one-click p {
     text-align: center;
     color: #616c7a;
@@ -694,17 +729,28 @@ section.icon-counter img {
     font-weight: 500;
     padding: 14px 0 0;
 }
+
 .item-p-online-company {
+    top: 20px;
     display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    padding: 25px 0;
+    flex-wrap: wrap;
+    position: relative;
 }
+
+.padding-style-company-2 {
+    padding: 40px 0 40px 90px;
+}
+
+.padding-style-company-1 {
+    padding: 40px 90px 40px 0;
+}
+
 .item1-company {
     padding: 0 10%;
     display: flex;
     justify-content: center;
 }
+
 .item2-company {
     display: flex;
     position: relative;
@@ -713,6 +759,7 @@ section.icon-counter img {
 
     justify-content: center;
 }
+
 .item3-company {
     padding: 0 10%;
     position: relative;
@@ -720,14 +767,18 @@ section.icon-counter img {
     display: flex;
     justify-content: center;
 }
+
 .item-image-online-company img {
-transform: scale(1);
-transition: all .5s;
-cursor: pointer;
+    transform: scale(1);
+    transition: all .5s;
+    cursor: pointer;
+    width: 50%;
 }
+
 .item-image-online-company img:hover {
     transform: scale(1.1);
 }
+
 /* =============================================== */
 /*  section 12- Star Customer Service
 /* =============================================== */
@@ -736,6 +787,7 @@ cursor: pointer;
     font-weight: 500;
     font-size: 55px
 }
+
 .heading-star p {
     text-align: center;
     color: #616c7a;
@@ -744,11 +796,11 @@ cursor: pointer;
     padding: 10px 0 0;
 }
 
-#owl-demo .item{
+#owl-demo .item {
     margin: 50px;
     padding: 16px;
     background-color: #fff;
-    box-shadow: 0 5px 15px 0 rgba(121,121,122,.7);
+    box-shadow: 0 5px 15px 0 rgba(121, 121, 122, .7);
     border-radius: 15px;
     height: 280px;
     width: 265px;
@@ -757,10 +809,11 @@ cursor: pointer;
     align-items: center;
 }
 
-  #owl-demo .item img {
-      width: 100%;
-  }
-  .name-i-owl .name {
+#owl-demo .item img {
+    width: 100%;
+}
+
+.name-i-owl .name {
     font-family: montserrat;
     font-size: 22px;
     font-weight: 700;
@@ -770,19 +823,22 @@ cursor: pointer;
     transition: all .2s;
     line-height: .9;
     margin-bottom: 10px;
-  }
-  .name-i-owl i {
+}
+
+.name-i-owl i {
     color: #ffb606;
     font-size: 18px;
     /* padding: 15px 5px 0 0; */
-  }
-  .line-item {
-      width: 90%;
-      height: 2px;
-      margin: 40px auto 5px;
-      background-color: #eee;
-  }
-  .item-description-owl {
+}
+
+.line-item {
+    width: 90%;
+    height: 2px;
+    margin: 40px auto 5px;
+    background-color: #eee;
+}
+
+.item-description-owl {
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -791,4 +847,176 @@ cursor: pointer;
     padding: 25px 0 0;
     font-size: 16px;
     font-weight: 300;
-  }
+}
+
+
+/* toggle  */
+.toggle-margin {
+    margin-Left: 0;
+}
+
+
+/* ============================================================= */
+/*  media */
+/* ============================================================= */
+
+/* ============================================================= */
+/* screen 1000 */
+/* ============================================================= */
+
+@media screen and (max-width: 1100px) {
+    #owl-demo .item {
+        width: 240px;
+    }
+    }
+/* ============================================================= */
+/* screen 1000 */
+/* ============================================================= */
+
+@media screen and (max-width: 991px) {
+    .all-image-company img {
+        width: 15%;
+    }
+
+    .video-style {
+        width: 80%;
+    }
+
+    .item-image-online-company img {
+        width: 45% !important;
+    }
+
+    .item2-company {
+        margin: -10% 0;
+    }
+
+    .item-p-online-company {
+        text-align: center;
+        display: block;
+    }
+
+    .padding-style-company-1,
+    .padding-style-company-2 {
+        padding: 0;
+        text-align: center;
+    }
+    .padding-style-company-1{
+        margin-bottom: 50px;
+    }
+    .padding-style-company-2{
+        margin-top: 50px;
+    }
+}
+/* ============================================================= */
+/* screen 900 */
+/* ============================================================= */
+
+@media screen and (max-width: 900px) {
+    .Eduma {
+
+        font-size: 50px;
+    }
+
+    .Best_online {
+        /* color: #fff; */
+        font-size: 25px;
+    }
+
+    .wordpress {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 1.3;
+    }
+
+    .all-image-company img {
+        width: 15%;
+    }
+
+    .SELLING h2 {
+        font-size: 40px;
+    }
+
+    .video-style {
+        width: 80%;
+    }
+
+    .perfect .headre-perfect h2 {
+        font-size: 37px;
+    }
+
+    .header-one-click h2 {
+        font-size: 35px;
+    }
+
+    .header-one-click p {
+        font-size: 22px;
+    }
+
+}
+
+
+
+/* ============================================================= */
+/* screen 600 */
+/* ============================================================= */
+@media screen and (max-width: 600px) {
+    .Eduma {
+        font-size: 40px;
+    }
+
+    .Best_online {
+        /* color: #fff; */
+        font-size: 20px;
+    }
+
+    .wordpress {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1.3;
+    }
+
+    .SELLING h2 {
+        font-size: 30px;
+    }
+
+    .video-style {
+        width: 80%;
+    }
+
+    .item-counter span {
+        font-size: 15px;
+    }
+
+    .item-counter i {
+        max-width: 60%;
+    }
+
+    .Premium-Demos .header-Demo h2 {
+        font-size: 30px;
+    }
+
+    .item-1-description-tpp h2 {
+        font-size: 30px;
+    }
+
+    .item-p-online-company {
+        text-align: center;
+        display: block;
+    }
+
+    .padding-style-company-1,
+    .padding-style-company-2 {
+        padding: 0;
+        text-align: center;
+    }
+    .heading-star h2 {
+        font-size: 35px;
+    }
+    .heading-star p {
+        font-size: 20px;
+    }
+}
