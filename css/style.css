@@ -25,10 +25,10 @@ section:not(.contact-us-navigation, .backgronud_image) {
 
 /* angle up */
 #btn-up {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     text-align: center;
-    line-height: 3;
+    line-height: 2.5;
     font-size: 22px;
     background: #ffb606;
     position: fixed;
@@ -39,7 +39,6 @@ section:not(.contact-us-navigation, .backgronud_image) {
     z-index: 9999;
     opacity: 0;
     visibility: hidden;
-
 }
 
 ul {
@@ -548,7 +547,6 @@ section.icon-counter {
 }
 
 .Premium-Demos img:hover {
-    -webkit-transform: translate3d(0, -10px, 0);
     box-shadow: 0 23px 40px rgba(0, 0, 0, .2);
 }
 
@@ -575,6 +573,177 @@ section.icon-counter {
     background-color: rgb(238, 238, 238);
     border-radius: 50px;
 }
+
+
+/* =================================================> */
+/* learn press -7 */
+/* =================================================> */
+.learn__press {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+
+.learn__press img[alt="learn__press"] {
+    max-width: 350px;
+    margin-bottom: 4rem;
+}
+
+.learn__press button#btn__add__ons,
+.learn__press button#lp {
+    background: #ffb606;
+    font-size: 16px;
+    padding: 10px 55px;
+    font-weight: 600;
+    color: #000;
+    transition: all .3s;
+    border: none;
+    outline: none;
+}
+
+.learn__press button#lp {
+    margin: 0 0 1rem 0;
+}
+
+.learn__press .learn__press__info {
+    height: 25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.learn__press__info .learn__press__info__text,
+.learn__press__info__imgs {
+    width: 48%;
+    height: 100%;
+}
+
+.learn__press__info .learn__press__info__text .par {
+    box-shadow: 0 5px 15px 0 rgba(121, 121, 122, .7);
+    border-radius: 10px;
+    background: whitesmoke;
+    height: .7rem;
+    position: relative;
+}
+
+.learn__press__info .learn__press__info__text .par:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background: rgb(255, 182, 6);
+    border-radius: 10px;
+    animation: widthh 1s linear;
+    -webkit-animation: widthh 1s linear;
+}
+
+@keyframes widthh {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+
+
+.learn__press__info__imgs .card__imgs img:hover {
+    transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    cursor: pointer;
+}
+
+
+.learn__press button+.learnpress__popup {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    background: #fff;
+    z-index: 100;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+}
+
+.learn__press button+.learnpress__popup i {
+    position: absolute;
+    font-size: 3rem;
+    right: .5rem;
+    cursor: pointer;
+}
+
+
+.learnpress__popup__info {
+    width: 100%;
+    height: 10rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.learnpress__popup__info .model__body {
+    width: 49%;
+    display: flex;
+    text-align: left;
+}
+
+.learnpress__popup__info .model__body img {
+    width: 45%;
+    height: 100%;
+    margin: 0 1rem;
+}
+
+.learnpress__popup__info .model__body a,
+.learnpress__popup__info .model__body p {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.learnpress__popup__info .model__body p {
+    color: #ccc;
+}
+
+.learnpress__popup__info .model__body a {
+    color: black;
+    transition: color .5s;
+    -webkit-transition: color .5s;
+    -moz-transition: color .5s;
+    -ms-transition: color .5s;
+    -o-transition: color .5s;
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.learnpress__popup__info .model__body a:hover {
+    color: #ffb606;
+}
+
 
 /* =================================================> */
 /* Start section 8- Elementor */
@@ -855,22 +1024,133 @@ section.icon-counter {
     margin-Left: 0;
 }
 
+/* ============================================================= */
+/* user */
+/* ============================================================= */
+.users__trust__eduma {
+    width: 100%;
+    height: 25rem;
+    background-image: url("https://educationwp.thimpress.com/wp-content/themes/eduma-child-landingpage/assets/images/BG2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.users__trust__eduma .users__trust__eduma__center {
+    width: auto !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.div-user-counter span {
+    font-size: 55px;
+    font-weight: 900;
+    color: #000;
+}
+
+.user-trust {
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin: 30px 0 10px;
+}
+
+.users__trust__eduma .users__trust__eduma__center a {
+    font-size: 16px;
+    border: 3px solid #000;
+    padding: 10px 55px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #000;
+    transition: all .3s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.users__trust__eduma .users__trust__eduma__center a:hover {
+    border-color: #fff;
+    color: #fff;
+}
+
+
 
 /* ============================================================= */
 /*  media */
 /* ============================================================= */
+/* ============================================================= */
+/* screen 1200 */
+/* ============================================================= */
+@media (max-width: 1200px) {
+    .learn__press {
+        height: auto;
+    }
+
+
+
+    .learn__press button#btn__add__ons {
+        margin: 0 0 1rem 9rem;
+    }
+
+    .learn__press .learn__press__info {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .learn__press__info .learn__press__info__text,
+    .learn__press__info__imgs {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .learn__press button+.learnpress__popup {
+        height: 50rem;
+    }
+
+    .learnpress__popup__info {
+        flex-direction: column;
+        margin-bottom: 10rem;
+    }
+
+    .learnpress__popup__info .model__body {
+        width: 100%;
+    }
+
+    .learnpress__popup__info .model__body img {
+        padding-bottom: 1rem;
+    }
+}
+/* ============================================================= */
+/* learn press */
+/* ============================================================= */
+@media  (min-width: 1001px) and  (max-width: 1200px) { 
+
+    .learnpress__popup__info {
+        flex-direction: row;
+        margin-bottom: 0;
+    }
+    .learnpress__popup__info .model__body {
+        width: 49%;
+    }
+}
 
 /* ============================================================= */
-/* screen 1000 */
+/* screen 1100 */
 /* ============================================================= */
 
 @media screen and (max-width: 1100px) {
     #owl-demo .item {
         width: 240px;
     }
-    }
+}
+
 /* ============================================================= */
-/* screen 1000 */
+/* screen 991 */
 /* ============================================================= */
 
 @media screen and (max-width: 991px) {
@@ -900,13 +1180,36 @@ section.icon-counter {
         padding: 0;
         text-align: center;
     }
-    .padding-style-company-1{
+
+    .padding-style-company-1 {
         margin-bottom: 50px;
     }
-    .padding-style-company-2{
+
+    .padding-style-company-2 {
         margin-top: 50px;
     }
+
+
+
+
+    .learn__press button#btn__add__ons {
+        margin: 0 0 1rem 0;
+    }
+
+    .learnpress__popup__info {
+        flex-direction: row;
+        margin-bottom: 0;
+    }
+
+    .learnpress__popup__info .model__body {
+        width: 49%;
+    }
+
+    .learnpress__popup__info .model__body img {
+        padding-bottom: 0;
+    }
 }
+
 /* ============================================================= */
 /* screen 900 */
 /* ============================================================= */
@@ -953,7 +1256,10 @@ section.icon-counter {
     .header-one-click p {
         font-size: 22px;
     }
-
+    .div-user-counter span {
+        font-size: 45px;
+    }
+}
 }
 
 
@@ -1013,10 +1319,104 @@ section.icon-counter {
         padding: 0;
         text-align: center;
     }
+
     .heading-star h2 {
         font-size: 35px;
     }
+
     .heading-star p {
         font-size: 20px;
+    }
+    .card__imgs img{
+        width: 20%;
+
+    }
+    .div-user-counter span {
+        font-size: 35px;
+    }
+
+}
+
+/* ============================================================= */
+/* screen 600 */
+/* ============================================================= */
+@media screen and (max-width: 425px){
+
+    .header-description h2,
+    .header-description span,
+    .header-description p,
+    .Premium-Demos .header-Demo h2,
+    .item-1-description-tpp h2,
+    .perfect .headre-perfect h2,
+    .header-one-click h2,
+    .heading-star h2 , .user-counter{
+        font-size: 25px !important;
+    }
+
+    .all-image-company {
+        padding: 50px 0 50px 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .SELLING h2,
+    .item-description-elementor p,
+    .item-1-description-tpp p,
+    .perfect .headre-perfect p,
+    .header-one-click p , .item-counter span , .user-trust{
+        font-size: 16px;
+    }
+
+    .SELLING i,
+    .heading-star p {
+        font-size: 20px;
+    }
+
+    .Premium-Demos .header-Demo p {
+        font-size: 18px;
+    }
+
+    .Premium-Demos {
+        padding: 0px 0;
+        margin-top: 0;
+    }
+
+    .learn__press img[alt="learn__press"] {
+        max-width: 200px;
+    }
+
+    .card__imgs img {
+        width: 20%;
+    }
+
+    .One-Click {
+        padding: 0;
+        text-align: center;
+    }
+
+    .online-company {
+        padding: 0;
+    }
+
+    .name-i-owl i {
+        color: #ffb606;
+        font-size: 14px;
+    }
+
+
+    .col-3 , .col-5 {
+        padding-right: 0;
+        padding-left: 0;
+
+    }
+    .users__trust__eduma .users__trust__eduma__center a {
+        padding: 3px 30px;
+
+    }
+    #btn-up {
+        width: 40px;
+        height: 40px;
+        line-height: 2;
     }
 }

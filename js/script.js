@@ -32,23 +32,25 @@ $(document).ready(function () {
             1200
         );
     });
-
+    /* ============================================================= */
+    /* number counter */
+    /* ============================================================= */
     $('.counter').counterUp({
         delay: 10,
         time: 2000
     });
 
     // owl
-    $(document).ready(function() {
- 
+    $(document).ready(function () {
+
         $("#owl-demo").owlCarousel({
-          items : 4,
-          lazyLoad : true,
-          navigation : true
-        
-        }); 
-       
-      });
+            items: 4,
+            lazyLoad: true,
+            navigation: true
+
+        });
+
+    });
     //   navbar
     $("#main").click(function () {
         $("#mySidenav").toggleClass("toggle-width")
