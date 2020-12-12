@@ -96,7 +96,7 @@ a:hover {
     border-radius: 10px;
     font-size: 16px;
     color: #ffb606;
-    padding: 3px 35px;
+    padding: 3px 25px;
 }
 
 .ul-navigation ul li:nth-of-type(6) a:hover {
@@ -1078,7 +1078,72 @@ section.icon-counter {
     color: #fff;
 }
 
+/*
+    ====================================
+       Footer 
+    ====================================
+*/
+.footer-content {
+    background-color: #111;
+    color: #fff;
+    padding: 50px 0;
+    position: relative;
+}
 
+.image-disc-footer {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.75;
+    word-break: break-word;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.image-disc-footer p {
+    color: #b5b5b5;
+}
+
+.image-disc-footer img {
+    max-width: 260px;
+    margin-bottom: 20px;
+}
+
+.three-two-item-in-footer {
+    margin-top: 70px;
+}
+
+.three-items-in-footr h2,
+.two-items-in-footr h2 {
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.three-items-in-footr p,
+.two-items-in-footr p {
+    font-size: 16px;
+    /* font-weight: 500; */
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #b5b5b5;
+
+}
+.two-items-in-footr .media-footer p {
+    transition: .3s;
+}
+.two-items-in-footr .media-footer p:hover {
+    color: #ffb606 !important;
+}
+.line-footer {
+    width: 2px;
+    height: 100%;
+    background-color: rgb(73, 73, 73);
+    position: absolute;
+    top: 0%;
+    right: 0;
+}
 
 /* ============================================================= */
 /*  media */
@@ -1125,15 +1190,17 @@ section.icon-counter {
         padding-bottom: 1rem;
     }
 }
+
 /* ============================================================= */
 /* learn press */
 /* ============================================================= */
-@media  (min-width: 1001px) and  (max-width: 1200px) { 
+@media (min-width: 1001px) and (max-width: 1200px) {
 
     .learnpress__popup__info {
         flex-direction: row;
         margin-bottom: 0;
     }
+
     .learnpress__popup__info .model__body {
         width: 49%;
     }
@@ -1208,7 +1275,24 @@ section.icon-counter {
     .learnpress__popup__info .model__body img {
         padding-bottom: 0;
     }
+
+    .three-two-item-in-footer{
+        display: block !important;
+    }
+    .line-footer {
+        display: none !important;
+    }
+    .three-items-in-footr {
+        flex: 100 !important;
+        max-width: 100% !important;
+    }
+    .two-items-in-footr {
+        flex: 100 !important;
+        max-width: 100% !important;
+        margin-top: 20px;
+    }
 }
+
 
 /* ============================================================= */
 /* screen 900 */
@@ -1256,6 +1340,7 @@ section.icon-counter {
     .header-one-click p {
         font-size: 22px;
     }
+
     .div-user-counter span {
         font-size: 45px;
     }
@@ -1327,10 +1412,12 @@ section.icon-counter {
     .heading-star p {
         font-size: 20px;
     }
-    .card__imgs img{
+
+    .card__imgs img {
         width: 20%;
 
     }
+
     .div-user-counter span {
         font-size: 35px;
     }
@@ -1340,7 +1427,7 @@ section.icon-counter {
 /* ============================================================= */
 /* screen 600 */
 /* ============================================================= */
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
 
     .header-description h2,
     .header-description span,
@@ -1349,7 +1436,8 @@ section.icon-counter {
     .item-1-description-tpp h2,
     .perfect .headre-perfect h2,
     .header-one-click h2,
-    .heading-star h2 , .user-counter{
+    .heading-star h2,
+    .user-counter {
         font-size: 25px !important;
     }
 
@@ -1364,7 +1452,9 @@ section.icon-counter {
     .item-description-elementor p,
     .item-1-description-tpp p,
     .perfect .headre-perfect p,
-    .header-one-click p , .item-counter span , .user-trust{
+    .header-one-click p,
+    .item-counter span,
+    .user-trust {
         font-size: 16px;
     }
 
@@ -1405,15 +1495,18 @@ section.icon-counter {
     }
 
 
-    .col-3 , .col-5 {
+    .col-3,
+    .col-5 {
         padding-right: 0;
         padding-left: 0;
 
     }
+
     .users__trust__eduma .users__trust__eduma__center a {
         padding: 3px 30px;
 
     }
+
     #btn-up {
         width: 40px;
         height: 40px;
