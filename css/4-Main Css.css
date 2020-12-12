@@ -1,0 +1,1675 @@
+/*  Font Family == font-family: 'PT Sans', sans-serif; font-family: 'Roboto', sans-serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+
+
+/*
+    ================================
+    │    1-General Styles          │
+    ================================
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*::after,
+*::before {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    color: var(--main-color);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+button,
+input {
+    outline: none !important;
+    border: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul:not(.dec) {
+    list-style: none;
+}
+
+.ahmed-container {
+    width: 93%;
+    margin: auto;
+}
+
+.wi-20 {
+    width: 22%;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.col-black {
+    color: var(--color-black);
+}
+
+.cur-po {
+    cursor: pointer;
+}
+
+.col-gray {
+    color: var(--color-gray-1);
+}
+
+.pd-20 {
+    padding-top: 20px;
+}
+
+.dec {
+    padding-left: 25px;
+}
+
+.dec li {
+    color: var(--color-gray-1);
+}
+
+.fo-14 {
+    font-size: 14px;
+}
+
+.fo-16 {
+    font-size: 16px;
+}
+
+.fl-right {
+    float: right;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.col-whi {
+    color: var(--color-white) !important;
+}
+
+/*
+    ============================
+    │   -Groping    (_!**!_)   │
+    ============================
+*/
+/*
+    ===========================================================
+    │    G.0  -font-family: 'Bree Serif', serif   (_!**!_)    │
+    ===========================================================
+*/
+
+.menu-end nav button,
+.in-center-ahmed,
+.pro-detailes>span,
+.peapole-talk>h6,
+.peapole-talk>span,
+.menu-end nav a,
+.menu-end nav h4 {
+    font-family: 'Bree Serif', serif;
+}
+
+
+/*
+    ========================================================================
+    │    G.1  -display: block & flex & inline-block & none    (_!**!_)     │
+    ========================================================================
+*/
+
+.sec-you-may-like h2:after,
+.have-latest-courses span,
+.time-course-and-more h6,
+.ahmed-last .ahmed-hover,
+.login-social-media>a,
+.div-info-footer>span,
+.details-for-teacher,
+.fun-onclick-comm h5,
+.div-info-footer img,
+.best-devolpers img,
+.div-links-footer a,
+.best-devolpers hr,
+.ahmed-hover ul,
+.hr-left-d:after,
+.have-detailes ul,
+.det-rating:after,
+.col-black,
+#comment,
+.menu a,
+.sty-sp,
+.sty-sp2 {
+    display: block;
+}
+
+.heading-apout-teachers-and-price-courses,
+.sec-you-may-like .btn-go-next-div span,
+.sec-you-may-like .btn-go-left-div span,
+.popup .register-user-popup,
+.have-3-divs-last-sec,
+.inp-for-text-massage,
+.have-latest-courses,
+.sec-latest-courses,
+.div-stars-peapole,
+.div-talk-peapole,
+.sec-all-courser,
+.ahmed-container,
+.side-right-sec,
+.menu a,
+#btn-up {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.div-info-footer .social-links-heading>a,
+.sec-you-may-like .social-links-heading a,
+.sec-you-may-like .social-links-heading,
+.login-social-media>a>span,
+.inp-for-text-massage span,
+.apout-teacher-price h2,
+.ahmed-hover a,
+.det-rating-0,
+.sty-sp2 span,
+.det-rating,
+.go-now,
+.hr-end {
+    display: inline-block;
+}
+
+.sec-you-may-like .btn-go-left-div span,
+.login-popup .popup,
+.login-popup>span,
+.fun-onclick-comm,
+.container-mop,
+span#menuNone {
+    display: none;
+}
+
+/*
+    ==================================================================
+    │    G.2  -position: relative & absolute & fixed     (_!**!_)    │
+    ==================================================================
+*/
+
+.img-teacher-right img,
+.inp-for-text-massage,
+.apout-teacher-price,
+.have-latest-courses,
+.apout-teacher-star,
+.numper-and-stars,
+.sec-you-may-like,
+.apout-teacher,
+.menu-end nav a,
+.best-devolpers,
+.have-div-show,
+.det-rating-0,
+.input-search,
+.image-scale,
+.ahmed-last,
+.det-rating,
+#add-teacher,
+.have-info,
+.wihh,
+.wih {
+    position: relative;
+}
+
+.sec-you-may-like .detailes-on-new-div,
+.sec-you-may-like .btn-go-next-div span,
+.sec-you-may-like .btn-go-left-div span,
+.image-scale .details button,
+.inp-for-text-massage span,
+.ahmed-last .ahmed-hover,
+.img-teacher-under-img,
+.menu-end nav a:after,
+.image-scale .details,
+.informain-apot-teacher,
+.details-for-teacher,
+.img-teacher-right,
+.fun-onclick-comm,
+.in-center-ahmed,
+.input-search i,
+.price-course,
+.pos-rel,
+.sty-sp2,
+.hr-end {
+    position: absolute;
+}
+
+span#settingIcon,
+span#menuNone,
+span#menuNone+.menu,
+.login-popup>span,
+.login-popup .popup,
+.msgbox-in-top,
+.fixedDiv,
+.fixedDiv-atr-2,
+.menu-end,
+#btn-up,
+.massage {
+    position: fixed;
+}
+
+/*
+    =====================================================
+    │    G.3  -width: 100% + height: 100%    (_!**!_)   │
+    =====================================================
+*/
+
+.heading-apout-teachers-and-price-courses,
+.msgbox-in-top .have-msgbox-talk-peapole,
+.register-user-account>input,
+.register-user-account>button,
+.div-show-place-in-wepsite,
+.have-img-in-menu-right,
+.inp-for-text-massage,
+.pro-detailes,
+.div-stars-peapole,
+.div-talk-peapole,
+.have-latest-courses,
+.sec-all-courser,
+.sec-latest-courses,
+.have-3-divs-last-sec,
+.sec-you-may-like,
+.best-devolpers hr,
+.footer-content,
+.image-in-last {
+    width: 100%;
+}
+
+.col-black,
+.apout-teacher,
+.apout-teacher-star,
+.apout-teacher-price,
+.hr-left-d,
+.informain-apot-teacher {
+    height: 100%;
+}
+
+.image-scale .details,
+.det-rating:after,
+.login-popup .popup {
+    width: 100%;
+    height: 100%;
+}
+
+/*
+    ===================================================
+    │  G.4  -background: white & orange     (_!**!_)  │
+    ===================================================
+*/
+
+.heading-apout-teachers-and-price-courses,
+.msgbox-in-top .have-msgbox-talk-peapole,
+.sec-you-may-like .btn-go-next-div span,
+.sec-you-may-like .btn-go-left-div span,
+.popup .register-user-popup,
+.ahmed-last .ahmed-hover,
+.inp-for-text-massage,
+.time-course-and-more,
+.details-for-teacher,
+.fun-onclick-comm,
+.side-right-sec,
+span#settingIcon,
+span#menuNone,
+.have-vidyo,
+.menu,
+.wih,
+.wihh {
+    background: var(--color-white);
+}
+
+.det-rating:after,
+.add-to-card,
+.image-scale .details button,
+.hr-left-d:after,
+.apout-teacher-price button,
+#btn-up:hover,
+.msgbox-in-top,
+.register-user-account>button,
+.menu-end nav button,
+.sec-best-devolpers h6,
+#add-teacher {
+    background: var(--color-orange);
+}
+
+/*
+    ==============================================================
+    │  G.5 -color: gray & Dull Black Color & White    (_!**!_)   │
+    ==============================================================
+*/
+
+.peapole-talk span i,
+.cur-po:hover,
+.div-info-footer .atr a:hover,
+.div-links-footer a:hover,
+.sty-sp2 span:not(:last-child),
+.in-center-ahmed span,
+.col-s,
+.div-show-place-in-wepsite a:hover,
+.best-devolpers span:hover,
+.register-user-account>span>a,
+.in-center-ahmed h2 {
+    color: var(--color-orange) !important;
+}
+
+
+.div-show-place-in-wepsite a,
+.div-info-footer a,
+.div-links-footer a,
+.input-search i,
+.tranced,
+.sty-sp,
+.sty-sp2,
+.done,
+.time {
+    color: var(--color-border);
+}
+
+.register-user-account>button,
+.have-msgbox-talk-peapole span,
+.apout-teacher-price button,
+.image-scale .details button,
+.menu-end nav button,
+.menu-end nav button,
+.have-detailes a,
+.menu-end nav a,
+.trance,
+.tranced,
+.cur-po {
+    color: var(--color-b-333);
+}
+
+.sec-you-may-like .social-links-heading a:hover,
+.div-info-footer .social-links-heading a:hover,
+.have-msgbox-talk-peapole span:nth-child(2),
+.informain-apot-teacher span,
+.div-info-footer .atr a:hover,
+.div-links-footer a:hover,
+span#menuNone+.menu a,
+.div-links-footer h6,
+.sec-best-devolpers h6,
+.div-info-footer,
+.massage i,
+.text-info span,
+.login-popup a,
+.login-popup>span,
+.add-to-card,
+.peapole-talk button,
+#btn-up {
+    color: var(--color-white);
+}
+
+/*
+    ===========================================
+    │   G.6 -text-align: center    (_!**!_)   │
+    ===========================================
+*/
+
+.sec-you-may-like .social-links-heading a,
+.div-info-footer .social-links-heading a,
+.login-social-media>a>span,
+.register-user-account>button,
+.best-devolpers,
+.sec-best-devolpers h6,
+.time-course-and-more h6,
+.ahmed-hover a,
+.menu {
+    text-align: center;
+}
+
+/*
+    ==================================================
+    │  G.7 Top:50% & left:50% & right:0   (_!**!_)   │
+    ==================================================
+*/
+
+.image-scale .details button,
+.in-center-ahmed {
+    top: 50%;
+    left: 50%;
+}
+
+.inp-for-text-massage span,
+.informain-apot-teacher,
+span#settingIcon,
+span#menuNone,
+.massage,
+.hr-end,
+.menu-end {
+    right: 0;
+}
+
+/*
+    ============================================================================
+    │   G.8 Font-size 0.8rem & 0.9rem & 25px & 2rem & 13px & 15px    (_!**!_)  │
+    ============================================================================
+*/
+
+.have-msgbox-talk-peapole span,
+.sty-sp,
+.sty-sp2,
+.ahmed-hover ul,
+.have-latest-courses span,
+.price-course,
+.div-links-footer a {
+    font-size: var(--font-0-8rem);
+}
+
+.peapole-talk span i,
+.ahmed-hover p,
+.sty-sp2,
+.go-now {
+    font-size: var(--font-0-9rem);
+}
+
+.ahmed-hover a,
+.apout-teacher-price h2,
+.massage i {
+    font-size: var(--font-25px);
+}
+
+.msgbox-in-top>span i,
+.sec-you-may-like h2 {
+    font-size: var(--font-2rem);
+}
+
+.text-info span,
+.login-popup a,
+.image-scale .details button,
+.menu-end nav a,
+.best-devolpers span {
+    font-size: var(--font-13px);
+}
+
+.have-msgbox-talk-peapole span:nth-child(2),
+.col-gray {
+    font-size: var(--font-15px);
+}
+
+/*
+    ==========================================
+    │   G.9 Cursor: Pointer    (_!**!_)      │
+    ==========================================
+*/
+
+.sec-you-may-like .btn-go-next-div span,
+.sec-you-may-like .btn-go-left-div span,
+.sec-you-may-like .social-links-heading a,
+.div-info-footer .social-links-heading a,
+.image-scale:hover,
+#btn-up:hover,
+.massage,
+span#settingIcon,
+span#menuNone,
+.login-popup a,
+.login-popup>span,
+.cur-por {
+    cursor: pointer;
+}
+
+/*
+    ===========================================
+    │  G.10 content: ""       (_!**!_)        │
+    ===========================================
+*/
+
+.sec-you-may-like h2:after,
+.hr-left-d:after,
+.det-rating:after,
+.menu-end nav a:after {
+    content: "";
+}
+
+
+.sec-you-may-like,
+.image-scale,
+.menu-end {
+    overflow: hidden;
+}
+
+/*
+    ===========================================
+    │  Animation Icon      (_!**!_)           │
+    ===========================================
+*/
+
+@-webkit-keyframes rotateIcon {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateIcon {
+
+    0% {
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+span#settingIcon i,
+span#menuNone i {
+    -webkit-animation: rotateIcon 2s infinite linear;
+    -moz-animation: rotateIcon 2s infinite linear;
+    -ms-animation: rotateIcon 2s infinite linear;
+    -o-animation: rotateIcon 2s infinite linear;
+    animation: rotateIcon 2s infinite linear;
+}
+
+
+
+/*
+    ========================================================
+    │  Animation Scale For Login page      (_!**!_)        │
+    ========================================================
+*/
+
+@-webkit-keyframes scale {
+
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+@keyframes scale {
+
+    0% {
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        transform: scale(0);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+.login-popup>span,
+.login-popup .popup {
+    -webkit-animation: scale 0.6s;
+    -moz-animation: scale 0.6s;
+    -ms-animation: scale 0.6s;
+    -o-animation: scale 0.6s;
+    animation: scale 0.6s;
+}
+
+
+/*
+    ========================================
+    │  Animation None      (_!**!_)        │
+    ========================================
+*/
+
+
+span#menuNone i {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -ms-animation: none;
+    -o-animation: none;
+    animation: none;
+}
+
+/*
+    ====================================
+    │    -Imgs        (_!**!_)         │
+    ====================================
+*/
+
+img[alt="img-tech"],
+img[alt="img-hamza"],
+img[alt="course"] {
+    width: 100%;
+    height: 100%;
+}
+
+img[alt="img-tech"] {
+    border: 2px solid rgba(255, 255, 255, 0.822);
+}
+
+img[alt="img-hamza"] {
+    border: 1px solid var(--color-black);
+}
+
+img[alt="course"] {
+    width: 50%;
+}
+
+img[alt="img-best-devolpers"] {
+    width: 20%;
+    height: 30%;
+    margin-left: 5.5rem;
+}
+
+img[alt="Anthony"] {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+img[alt="img-course"] {
+    max-width: 100%;
+    height: 17rem;
+    position: center;
+}
+
+/*
+    ============================
+    │    -Z-index    (_!**!_)  │
+    ============================
+*/
+
+.image-scale img,
+.heading-apout-teachers-and-price-courses {
+    z-index: 1;
+}
+
+.ahmed-last .ahmed-hover,
+.fun-onclick-comm,
+#btn-up {
+    z-index: 2;
+}
+
+.msgbox-in-top,
+.massage {
+    z-index: 3;
+}
+
+.menu,
+span#settingIcon,
+span#menuNone {
+    z-index: 4;
+}
+
+.image-scale .details button {
+    z-index: 90;
+}
+
+.login-popup .popup {
+    z-index: 100;
+}
+
+.login-popup>span {
+    z-index: 101;
+}
+
+
+/*
+    =================================
+    │    -Any hovers     (_!**!_)   │
+    =================================
+*/
+
+.col-black:hover {
+    color: var(--color-black);
+}
+
+.n-hover:hover {
+    color: var(--color-gray) !important;
+}
+
+.ahmed-last:hover {
+    cursor: grab;
+}
+
+.image-scale:hover .details {
+    top: 0;
+    left: 0;
+}
+
+
+.sec-you-may-like .social-links-heading a:hover,
+.div-info-footer .social-links-heading a:hover {
+    background: var(--color-blue-n);
+}
+
+.add-to-card:hover,
+.image-scale .details button:hover,
+.apout-teacher-price button:hover {
+    background: var(--color-oran-i);
+}
+
+.ahmed-hover a:hover {
+    color: var(--color-red);
+    border: 1px solid var(--color-red);
+}
+
+#btn-up:hover {
+    color: var(--color-black);
+}
+
+.best-devolpers:hover .informain-apot-teacher {
+    width: 50%;
+}
+
+.login-popup a:hover {
+    text-decoration: underline !important;
+}
+
+
+/* 
+    ====================================================== 
+    │    Lets Start In Sections      (_!**!_)            │
+    ====================================================== 
+*/
+/*
+    ===============================
+    │    massage       (_!**!_)   │
+    ===============================
+*/
+
+.massage {
+    background: var(--color-green);
+    padding: 8px;
+    top: 13rem;
+}
+
+.msgbox-in-top {
+    width: 15.5rem;
+    right: 30%;
+    top: -35rem;
+}
+
+.msgbox-in-top span:nth-child(2) {
+    font-size: 1.5rem;
+    padding-left: 3rem;
+}
+
+.msgbox-in-top .have-msgbox-talk-peapole {
+    height: 15rem;
+    overflow-y: scroll;
+}
+
+.have-msgbox-talk-peapole span {
+    background: var(--color-border);
+    padding: 5px;
+    width: 70%;
+    float: right;
+    margin-bottom: 5px;
+}
+
+.have-msgbox-talk-peapole span:nth-child(2) {
+    float: left;
+    padding: 5px;
+    background: var(--bg-massage);
+}
+
+.inp-for-text-massage input {
+    width: 90%;
+    border: 1px solid var(--color-border);
+    padding: 5px;
+}
+
+/*
+    ================================
+    │    Setting Icon    (_!**!_)  │
+    ================================
+*/
+
+span#settingIcon,
+span#menuNone {
+    top: 10rem;
+    padding: 10px;
+}
+
+span#settingIcon i,
+span#menuNone i {
+    font-size: 20px;
+}
+
+span#menuNone {
+    right: 20rem;
+}
+
+span#menuNone+.menu {
+    right: -20rem;
+    padding: 10px;
+    width: 20rem;
+    height: 40rem;
+    overflow-y: scroll;
+}
+
+span#menuNone+.menu a {
+    width: 80%;
+    height: 2rem;
+    background: var(--color-green);
+    padding: 1.5rem 0 1.5rem 4.8rem;
+    margin: 0 2rem 1rem 2rem;
+}
+
+.trance,
+.tranced {
+    font-size: 12px;
+}
+
+.have-img-in-menu-right {
+    height: 85rem;
+    background-image: url(../images/chameleon-21.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+}
+
+/*
+    ====================================
+    │    3-Secions Styles    (_!**!_)  │
+    ====================================
+*/
+
+/*
+    ====================================
+    │    3.0 Header Sec    (_!**!_)    │
+    ====================================
+*/
+.frist-nav-with-login {
+    background-color: black;
+    padding: 10px 0;
+}
+.frist-nav-with-login-content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-initial {
+    justify-content: flex-end;
+    display: flex;
+}
+.login-popup {
+    width: 15%;
+}
+
+.login-popup>span {
+    font-size: 5rem;
+}
+
+.login-popup .popup {
+    top: 0;
+    left: 0;
+}
+
+.popup .register-user-popup {
+    width: 62%;
+    height: 72%;
+    margin: 6rem auto;
+}
+
+.register-user-popup .login-social-media,
+.register-user-popup .register-user-account {
+    width: 37%;
+    height: 70%;
+    margin: 3rem 0 0 3rem;
+}
+
+.login-social-media>h4,
+.register-user-account>h4 {
+    margin-bottom: 2rem;
+}
+
+.login-social-media>a {
+    width: 70%;
+    color: #fff;
+    background-color: var(--bg-massage);
+    border-color: rgba(0, 0, 0, .2);
+    background-image: linear-gradient(to bottom, #4267B2, #4267B2);
+    white-space: nowrap;
+    margin: 0 0 1rem 1rem;
+}
+
+.login-social-media>a>span {
+    width: 2.5rem;
+    height: 2rem;
+    border-right: 2px solid var(--color-border);
+    margin-right: 2.5rem;
+    text-decoration: none !important;
+}
+
+.login-social-media>a>span>i {
+    padding-top: 0.5rem;
+}
+
+.register-user-popup .register-user-account {
+    width: 46%;
+}
+
+.register-user-account>input,
+.register-user-account>button {
+    height: 2.2rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--color-border);
+    outline: 0;
+}
+
+.register-user-account>input {
+    padding-left: 1rem;
+}
+
+.register-user-account>span {
+    margin-left: 5rem;
+}
+
+
+.header-content {
+    width: 100%;
+    height: 20rem;
+    background: red;
+    background-image: url("https://educationwp.thimpress.com/wp-content/themes/eduma/images/bg-page.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-content .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 1rem;
+}
+
+.header-content .header-top {
+    width: 100%;
+    height: 55%;
+    background: #ccc;
+    display: flex;
+}
+
+.header-content .header-top img {
+    height: 2.3rem;
+    margin-right: 20rem;
+}
+
+.header-content .mr-owner {
+    margin-right: 19rem;
+}
+
+/*
+    =============================================
+    │    3.1 Your Place In Wepsite   (_!**!_)   │
+    =============================================
+*/
+
+.div-show-place-in-wepsite {
+    height: 50px;
+}
+
+.div-show-place-in-wepsite a {
+    font-size: 12px;
+}
+
+/*
+    =============================================
+    │    3.2 -LMS Interactive Sec    (_!**!_)   │
+    =============================================
+*/
+
+.aside-left-style {
+    width: 75%;
+    height: auto;
+    padding-top: 4rem;
+}
+
+.aside-left-style h1 {
+    font-size: 26px;
+    padding-bottom: 2rem;
+}
+
+.heading-apout-teachers-and-price-courses {
+    height: 90px;
+}
+
+.apout-teacher,
+.apout-teacher-star,
+.apout-teacher-price {
+    width: 12%;
+}
+
+.apout-teacher-star {
+    width: 22%;
+}
+
+.apout-teacher-price {
+    margin-left: 10rem;
+    width: 30%;
+    padding-top: 0.5rem;
+}
+
+.apout-teacher-price h2 {
+    color: var(--color-green);
+    padding-right: 30px;
+}
+
+.apout-teacher-price button {
+    padding: 5px 25px;
+    text-transform: uppercase;
+    font: 13px/30px 'PT Sans', sans-serif;
+    border: 0;
+}
+
+.img-teacher {
+    height: 40px;
+}
+
+.sty-sp,
+.sty-sp2 {
+    padding-left: 0.7rem;
+}
+
+.sty-sp2 {
+    color: var(--color-black-q);
+    top: 18%;
+}
+
+.hr-end {
+    width: 0.5px;
+    height: 50%;
+    background: rgba(128, 128, 128, 0.171);
+    top: 0;
+}
+
+.have-vidyo {
+    width: 97%;
+    height: 520px;
+    border: 2px solid var(--color-orange);
+    padding: 10px;
+}
+
+
+.sec-overview {
+    width: 97.5%;
+    border: 1px solid var(--color-border);
+    margin-top: 3rem;
+}
+
+.c,
+.ca {
+    border: none;
+    width: 70%;
+    height: 32rem;
+    float: left;
+}
+
+.wih,
+.wihh {
+    width: 13.1rem;
+    padding: 5px 0 0 3.1rem;
+    height: 50px;
+}
+
+.wihh {
+    border: 1px solid #eee;
+    background: #f9f9f9;
+}
+
+.wih {
+    border-top: 4px solid black;
+}
+
+
+.side-right-sec {
+    width: 30%;
+    height: 51rem;
+    float: right;
+    padding-top: 3rem;
+}
+
+.hr-3mod {
+    width: 2px;
+    height: 45rem;
+    background: var(--color-border);
+}
+
+.time-course-and-more {
+    width: 13rem;
+    height: 45rem;
+    margin-left: 2rem;
+}
+
+.time-course-and-more h6 {
+    padding-bottom: 20px;
+    font-family: 'Itim', cursive;
+}
+
+/* start when click show div in sec overview */
+.fun-onclick-comm {
+    width: 52.5rem;
+    height: 48rem;
+    left: -13rem;
+    top: 5.5rem;
+    padding: 1.5rem;
+}
+
+.div-stars-peapole,
+.div-talk-peapole {
+    height: 18rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.numper-and-stars {
+    width: 25%;
+    height: 80%;
+    border: 1px solid var(--color-border);
+}
+
+.in-center-ahmed h2 {
+    font-size: 5rem;
+}
+
+.in-center-ahmed p {
+    padding-left: 0.7rem;
+}
+
+.pro-divs {
+    width: 35%;
+    height: 80%;
+    border: 1px solid var(--color-border);
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.pro-detailes {
+    margin-bottom: 1rem;
+}
+
+.det-rating,
+.det-rating-0 {
+    width: 50%;
+    height: 0.6rem;
+    background: #eee;
+    margin: 0 1rem 0 2rem;
+}
+
+.div-talk-peapole {
+    height: 36rem;
+    padding: 2rem 0 2rem 0;
+    border-bottom: 0;
+    overflow-y: scroll;
+    flex-direction: column;
+    /* background: red; */
+}
+
+.div-talk-peapole .img-peapole-react,
+.peapole-talk {
+    width: 11%;
+    height: 60%;
+}
+
+.dest {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.peapole-talk {
+    width: 89%;
+}
+
+.peapole-talk button {
+    padding: 5px;
+    background: blue;
+    margin-bottom: 1rem;
+}
+
+.time {
+    padding-left: 10px;
+}
+
+.text-pepole {
+    color: var(--color-gray);
+}
+
+#comment {
+    border-bottom: 1px solid var(--color-border);
+    width: 90%;
+}
+
+
+/*
+    =========================================
+    │    3.3 -YOU MAY LIKE Sec   (_!**!_)   │
+    =========================================
+*/
+
+.sec-you-may-like {
+    height: 50rem;
+}
+
+.sec-you-may-like .detailes-on-new-div {
+    right: -35%;
+    top: 50%;
+    border: 2px dotted black;
+}
+
+
+.sec-you-may-like .btn-go-next-div span,
+.sec-you-may-like .btn-go-left-div span {
+    right: 40%;
+    bottom: 7%;
+    width: 3rem;
+    height: 3rem;
+    padding-left: 1.2rem;
+}
+
+.sec-you-may-like .btn-go-left-div span {
+    right: 50%;
+}
+
+.sec-you-may-like .social-links-heading {
+    padding-top: 20px;
+}
+
+.sec-you-may-like .social-links-heading span {
+    padding-right: 1rem;
+}
+
+.sec-you-may-like .social-links-heading a,
+.div-info-footer .social-links-heading a {
+    color: var(--color-gray-h);
+    line-height: 28px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--color-gray-h);
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.sec-you-may-like h2 {
+    padding-top: 2rem;
+}
+
+.sec-you-may-like h2:after {
+    width: 3rem;
+    height: 2px;
+    margin-top: 10px;
+    background: var(--color-b-333);
+}
+
+.have-3-divs-last-sec {
+    height: 29rem;
+    margin-top: 5rem;
+}
+
+.ahmed-last {
+    width: 31%;
+}
+
+.ahmed-last .ahmed-hover {
+    left: 16rem;
+    top: 1.5rem;
+    width: 20rem;
+    height: 25rem;
+    padding: 15px;
+}
+
+.ahmed-last .for-left-more {
+    left: -110%;
+}
+
+.img-teacher-right {
+    width: 3rem;
+    height: 3rem;
+    right: 5%;
+    top: 14%;
+}
+
+.img-teacher-right+h5 {
+    font-size: 18.5px
+}
+
+.details-for-teacher {
+    width: 15rem;
+    height: 5rem;
+    left: 100%;
+    bottom: 50%;
+    padding: 10px;
+}
+
+.details-for-teacher p .name-devolper {
+    text-decoration: underline;
+}
+
+.go-now {
+    color: var(--color-green);
+    width: auto;
+    font-size: 11px;
+    padding: 5px 10px 5px 5px;
+}
+
+.ahmed-hover ul {
+    padding-left: 20px;
+}
+
+.add-to-card {
+    border: none;
+    padding: 0.6rem 4rem 0.5rem 4rem;
+}
+
+.ahmed-hover a {
+    color: var(--color-gray-h);
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-gray-h);
+    vertical-align: middle;
+}
+
+.price-thing-d {
+    float: right;
+    color: var(--color-gray-h);
+    text-decoration: line-through;
+}
+
+.image-scale {
+    width: 100%;
+    height: 16rem;
+}
+
+.image-scale .details {
+    background: rgba(0, 0, 0, .8);
+}
+
+.image-scale .details button {
+    line-height: 30px;
+    padding: 5px 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.price-thing {
+    float: right;
+    color: var(--color-red);
+}
+
+.img-teacher-under-img {
+    width: 2.5rem;
+    height: 2.5rem;
+    bottom: 90%;
+    right: 50%;
+}
+
+.done {
+    padding-left: 3rem;
+}
+
+/*
+    =========================================
+    │    3.4 -ALL COURSES Sec     (_!**!_)  │
+    =========================================
+*/
+
+.aside-right-style {
+    width: 25%;
+    height: 50rem;
+}
+
+.sec-all-courser,
+.sec-latest-courses {
+    height: 21rem;
+    padding-top: 4rem;
+}
+
+.hr-left-d {
+    width: 2px;
+    background: var(--color-border);
+}
+
+.hr-left-d:after {
+    width: 4px;
+    height: 3rem;
+}
+
+.have-detailes {
+    width: 80%;
+    height: 17rem;
+    margin-left: 20px;
+}
+
+.have-detailes ul {
+    list-style: none;
+    margin-left: 5px;
+}
+
+.have-detailes ul li {
+    padding-bottom: 5px;
+}
+
+/*
+    ===========================================
+    │    3.5 -LATEST COURSES Sec   (_!**!_)   │
+    ===========================================
+*/
+
+.aside-right-section {
+    height: 70rem;
+}
+
+.image-in-last {
+    height: 16rem;
+    background-image: url(../images/ad.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: none;
+    margin-top: 5rem;
+}
+
+.sec-latest-courses {
+    flex-direction: row;
+    height: 30rem;
+}
+
+.have-latest-courses {
+    height: 6rem;
+    margin-bottom: 2rem;
+}
+
+
+.have-latest-courses span {
+    margin-left: 1.5rem;
+}
+
+.price-course {
+    top: 50%;
+    left: 60%;
+    color: var(--color-green);
+}
+
+.h-25rem {
+    height: 25rem;
+}
+
+/*
+    ===========================================
+    │  3.6  Section Best Devolpers (_!**!_)   │
+    ===========================================
+*/
+
+.informain-apot-teacher {
+    width: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .6);
+}
+
+.informain-apot-teacher span:nth-of-type(4) {
+    color: var(--color-black) !important;
+}
+
+.best-devolpers hr {
+    height: 0.3rem;
+    background: var(--color-border);
+}
+
+.sec-best-devolpers {
+    width: 115%;
+    height: 69.5rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-left: 3px solid var(--color-border);
+    border-bottom: 3px solid var(--color-border);
+}
+
+#add-teacher {
+    left: -2.4rem;
+    top: 3rem;
+    padding: 5px;
+}
+
+.input-search input {
+    border: 1px solid var(--color-border);
+    padding: 0.5rem 0 0.5rem 3rem;
+    width: 95%;
+}
+
+.input-search {
+    padding-left: 10px;
+}
+
+.input-search i {
+    left: 8%;
+    bottom: 30%;
+}
+
+
+
+/*
+    ====================================
+    │    3.7 Footer Sec      (_!**!_)  │
+    ====================================
+*/
+
+.footer-content {
+    height: 20rem;
+    background: var(--bg-footer);
+    padding-top: 5rem;
+}
+
+.div-info-footer {
+    margin-right: 15rem;
+}
+
+.div-info-footer>span {
+    margin-top: 2rem;
+}
+
+.div-links-footer {
+    margin-right: 6rem;
+}
+
+.div-links-footer a {
+    margin-top: 1rem;
+}
+
+
+.div-links-footer h6 {
+    font-size: 1rem;
+    margin-bottom: 0 0 2rem 0;
+}
+
+/*
+    ==========================================
+    │    Btn Go up & menu in end  (_!**!_)   │
+    ==========================================
+*/
+
+#btn-up {
+    width: 2rem;
+    height: 2rem;
+    background: var(--color-b-333);
+    bottom: 14px;
+    right: 14px;
+    padding-left: 0.7rem;
+}
+
+.menu-end {
+    bottom: -80px;
+    left: 0;
+    background: #fff;
+    padding: 15px 0 10px 0;
+}
+
+.menu-end nav a:after {
+    left: 15%;
+    top: -35%;
+    border-top: 3px solid var(--color-orange);
+    width: 0;
+}
+
+.menu-end nav a:hover:after {
+    width: 80%;
+}
+
+.menu-end nav a:nth-of-type(1) {
+    margin-left: 2rem !important;
+}
+
+.menu-end nav h4 {
+    margin: 0.3rem 0 0 35rem;
+    color: var(--color-green);
+}
+
+.menu-end nav button {
+    padding: 0.6rem 2rem 0.6rem 2rem;
+    margin-left: 3rem;
+}
+
+
+
+/* 
+    =======================================
+    │   End Good Bye        (_!**!_)      │
+    =======================================
+*/

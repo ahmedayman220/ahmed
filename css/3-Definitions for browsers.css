@@ -1,0 +1,335 @@
+/*
+    ==============================================
+    │    -Definitions for browsers    (_!**!_)   │
+    ==============================================
+*/
+
+aside,
+footer,
+header,
+nav,
+section 
+{
+    display: block;
+}
+
+.sec-you-may-like .social-links-heading a ,
+.div-info-footer .social-links-heading a ,
+.sec-you-may-like .btn-go-next-div span ,
+.sec-you-may-like .btn-go-left-div span ,
+.img-teacher-right img ,
+.img-teacher ,
+.ahmed-hover a ,
+.img-teacher-under-img img ,
+.div-talk-peapole .img-peapole-react img ,
+.best-devolpers img ,
+#btn-up
+{
+    -webkit-border-radius: 50%;
+        -khtml-border-radius: 50%;
+            -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                            border-radius: 50%;
+}
+
+.menu ,
+span#settingIcon ,
+span#menuNone 
+{
+    -webkit-border-radius:5px 0 0 5px;
+        -moz-border-radius: 5px 0 0 5px;
+            -ms-border-radius: 5px 0 0 5px;
+                -o-border-radius: 5px 0 0 5px;
+                    border-radius: 5px 0 0 5px;
+}
+
+.menu a ,
+.details-for-teacher ,
+.add-to-card 
+{
+    -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+                    border-radius: 5px;
+}
+
+.login-social-media > a 
+{
+    -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+                -o-border-radius: 4px;
+                    border-radius: 4px;
+}
+
+.input-search input
+{
+    -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+                -o-border-radius: 15px;
+                    border-radius: 15px;
+}
+
+.have-msgbox-talk-peapole  span  
+{
+    -webkit-border-radius: 5px 5px 0 5px;
+        -moz-border-radius: 5px 5px 0 5px;
+            -ms-border-radius: 5px 5px 0 5px;
+                -o-border-radius: 5px 5px 0 5px;
+                    border-radius: 5px 5px 0 5px;
+}
+
+.inp-for-text-massage input 
+{
+    -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                    border-radius: 10px;
+}
+
+.c ,
+.ca ,
+.ahmed-last
+{
+    -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+            -ms-border-radius: 0;
+                -o-border-radius: 0;
+                    border-radius: 0;
+}
+
+.informain-apot-teacher,
+.image-scale .details button ,
+.ahmed-last .ahmed-hover  ,
+.details-for-teacher ,
+#btn-up
+{
+    -webkit-visibility: hidden;
+        -khtml-visibility: hidden;
+            -moz-visibility: hidden;
+                -ms-visibility: hidden;
+                    -o-visibility: hidden;
+                        visibility: hidden;
+    -webkit-opacity: 0;
+        -khtml-opacity: 0;
+            -moz-opacity: 0;
+                -ms-opacity: 0;
+                    -o-opacity: 0;
+                        opacity: 0 ;
+}
+
+.image-scale:hover .details button , 
+.img-teacher-right:hover    .details-for-teacher,
+.best-devolpers:hover .informain-apot-teacher,
+.ahmed-last:hover .ahmed-hover 
+{
+    -webkit-visibility: visible;
+        -khtml-visibility: visible;
+            -moz-visibility: visible;
+                -ms-visibility: visible;
+                    -o-visibility: visible;
+                        visibility: visible;
+    -webkit-opacity: 1;
+        -khtml-opacity: 1;
+            -moz-opacity: 1;
+                -ms-opacity: 1;
+                    -o-opacity: 1;
+                        opacity: 1;
+}
+
+.menu-end nav button:hover 
+{ 
+    -webkit-opacity: .9;
+        -khtml-opacity: .9;
+            -moz-opacity: .9;
+                -ms-opacity: .9;
+                    -o-opacity: .9;
+                        opacity: .9; 
+}
+
+.image-scale .details , 
+.image-scale .details button ,
+.in-center-ahmed 
+{
+    -webkit-transform: translate(-50%,-50%) scale(1.2,1.2);
+        -moz-transform: translate(-50%,-50%) scale(1.2,1.2);
+            -ms-transform: translate(-50%,-50%) scale(1.2,1.2);
+                -o-transform: translate(-50%,-50%) scale(1.2,1.2);
+                    transform: translate(-50%,-50%) scale(1.2,1.2);
+}
+
+.sec-you-may-like .btn-go-next-div span ,
+.sec-you-may-like .btn-go-left-div span,
+.ahmed-last .ahmed-hover ,
+.details-for-teacher ,
+.msgbox-in-top ,
+.menu ,
+span#settingIcon ,
+span#menuNone
+{
+    -webkit-box-shadow: 1px 1px 3px 3px rgba(128, 128, 128, 0.185);
+        -khtml-box-shadow: 1px 1px 3px 3px rgba(128, 128, 128, 0.185);
+            -moz-box-shadow: 1px 1px 3px 3px rgba(128, 128, 128, 0.185);
+                -ms-box-shadow: 1px 1px 3px 3px rgba(128, 128, 128, 0.185);
+                    -o-box-shadow: 1px 1px 3px 3px rgba(128, 128, 128, 0.185);
+                        box-shadow: 1px 1px 3px 3px rgba(128, 128, 128, 0.185);
+}
+
+.menu-end
+{
+    -webkit-box-shadow: 0 3px 6px 2px rgba(42,42,42,.4);
+        -khtml-box-shadow: 0 3px 6px 2px rgba(42,42,42,.4);
+            -moz-box-shadow: 0 3px 6px 2px rgba(42,42,42,.4);
+                -ms-box-shadow: 0 3px 6px 2px rgba(42,42,42,.4);
+                    -o-box-shadow: 0 3px 6px 2px rgba(42,42,42,.4);
+                        box-shadow: 0 3px 6px 2px rgba(42,42,42,.4);
+}
+
+.div-show-place-in-wepsite a:hover ,
+.apout-teacher-price button:hover ,
+.div-info-footer  a ,
+.div-links-footer a,
+.best-devolpers span
+{
+    -webkit-transition: color .5s;
+        -moz-transition: color .5s;
+            -ms-transition: color .5s;
+                -o-transition: color .5s ;
+                    transition: color .5s ;
+}
+
+.image-scale .details button
+{
+    -webkit-transition: all .3s ease-in-out;
+        -khtml-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+                -ms-transition: all .3s ease-in-out;
+                    -o-transition: all .3s ease-in-out;
+                        transition: all .3s ease-in-out;
+}
+
+.ahmed-last .ahmed-hover
+{
+    -webkit-transition:  opacity 1s;
+        -moz-transition:  opacity 1s;
+            -ms-transition:  opacity 1s;
+                -o-transition: opacity 1s ;
+                    transition:  opacity 1s ;
+}
+
+.details-for-teacher
+{
+    -webkit-transition:  opacity .5s;
+        -moz-transition:  opacity .5s;
+            -ms-transition:  opacity .5s;
+                -o-transition: opacity .5s ;
+                    transition: opacity .5s;
+}
+
+.image-scale img
+{
+    -webkit-transition: transform 1s;
+        -moz-transition:  transform 1s;
+            -ms-transition: transform 1s;
+                -o-transition:transform 1s ;
+                    transition: transform 1s;
+}
+
+.image-scale .details
+{
+    -webkit-transition: transform .5s;
+        -moz-transition:  transform .5s;
+            -ms-transition: transform .5s;
+                -o-transition:transform .5s ;
+                    transition: transform .5s ;
+}
+
+
+.sec-you-may-like .detailes-on-new-div,
+.menu
+{
+    -webkit-transition: right .5s ;
+        -moz-transition: right .5s ;
+            -ms-transition: right .5s ;
+                -o-transition: right .5s ;
+                    transition: right .5s ;
+}
+
+.msgbox-in-top
+{
+    -webkit-transition: top .5s;
+        -moz-transition: top .5s;
+            -ms-transition: top .5s;
+                -o-transition: top .5s;
+                    transition: top .5s;
+}
+
+.menu-end nav a:after,
+.informain-apot-teacher 
+{
+    -webkit-transition: width .5s ;
+        -moz-transition: width .5s ;
+            -ms-transition: width .5s ;
+                -o-transition: width .5s ;
+                    transition: width .5s ;
+}
+
+.menu-end,
+#btn-up
+{
+    -webkit-transition: all .3s;
+        -khtml-transition: all .3s;
+            -moz-transition: all .3s;
+                -ms-transition: all .3s;
+                    -o-transition: all .3s;
+                        transition: all .3s;
+}
+
+.image-scale:hover .details
+{
+    -webkit-transform: scaleY(1);
+        -moz-transform: scaleY(1);
+            -ms-transform: scaleY(1);
+                -o-transform: scaleY(1);
+                    transform: scaleY(1);
+}
+
+.image-scale:hover   img
+{
+    -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+                -o-transform: scale(1.1);
+                    transform: scale(1.1);
+}
+
+.image-scale .details
+{
+    -webkit-transform: scaleY(0);
+        -moz-transform: scaleY(0);
+            -ms-transform: scaleY(0);
+                -o-transform: scaleY(0);
+                    transform: scaleY(0);
+}
+
+.sec-you-may-like .btn-go-next-div span ,
+.sec-you-may-like .btn-go-left-div span,
+span#menuNone + .menu  a ,
+#btn-up
+{
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+
+
+/* 
+    =======================================
+    │   End Good Bye        (_!**!_)      │
+    =======================================
+*/
